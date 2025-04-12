@@ -1,0 +1,47 @@
+.urlText {
+    font: normal normal normal 25px/34px Open Sans, sans-serif;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+}
+
+.urlTextActive {
+    font: normal normal normal 25px/34px Open Sans, sans-serif;
+    letter-spacing: 0px;
+    color: #098B46;
+    opacity: 1;
+}
+
+.headingText {
+    font-family: 'Open Sans', sans-serif;
+    font: normal normal 800 75px/102px Open Sans, sans-serif;
+    letter-spacing: 0px;
+    color: #098B46;
+    opacity: 1;
+}
+
+.subHeadingText {
+    font: normal normal normal 25px/34px Open Sans, sans-serif;
+    letter-spacing: 0px;
+    color: #363636;
+}
+
+.smartAppBg {
+    background: #F8F8F8 0% 0% no-repeat padding-box;
+    box-shadow: 0px -3px 6px #00000029;
+}
+
+.customerAppBgText::before {
+    content: '';
+    width: 120%;
+    height: -webkit-fill-available;
+    background: #098B46;
+    position: absolute;
+    left: -324px;
+    top: 0;
+    z-index: -1;    
+}
+.customerAppBgText { 
+    border-top-right-radius: 55px;
+    border-bottom-right-radius: 55px;
+}
