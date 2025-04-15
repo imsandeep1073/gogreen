@@ -3,6 +3,7 @@ import React from 'react'
 import Image from 'next/image'
 import Link from 'next/link'
 import styles from '../../../main.module.css'
+
 const Banner = () => {
 
     const bannerImage = [
@@ -33,15 +34,14 @@ const Banner = () => {
                             alt={image.alt}
                             width={150}
                             height={150}
-                    />
-                </Link>
+                        />
+                    </Link>
                 ))}
             </div>
-            <div className={`flex justify-center 2xl:h-[668px] xl:h-[568px] overflow-hidden mt-10 relative` }>
+            <div className={`flex justify-center 2xl:h-[668px] xl:h-[568px] overflow-hidden mt-10 relative`}>
                 <Image src="/banner_mobile.svg" className={`2xl:h-[1391px] xl:h-[1191px] relative z-[-1]`} alt="banner" width={1500} height={1500} />
                 <Image src="/lines_leftImages.svg" className={`absolute bottom-0 left-[-89px] w-[29%] rotate-[-18deg] z-[-2]`} alt="banner" width={500} height={500} />
                 <Image src="/lines_rightImages.svg" className={`absolute bottom-0 right-[-89px] w-[29%] rotate-[18deg] z-[-2]`} alt="banner" width={500} height={500} />
-                
             </div>
         </div>
     )

@@ -1,10 +1,32 @@
 "use client"
 import React, { useState } from 'react'
 import styles from '../main.module.css'
+import Link from 'next/link'
 
 const Header = () => {
     const [activeItem, setActiveItem] = useState('Home');
-
+    const urls = [
+        {
+            name: 'Home',   
+            url: '/'
+        },
+        {
+            name: 'About Us',
+            url: '/about'
+        },
+        {
+            name: 'Services',
+            url: '/services'
+        },  
+        {
+            name: 'Blog',
+            url: '/blog' 
+        },
+        {
+            name: 'Contact',
+            url: '/contact'
+        }
+    ];
     const handleClick = (item) => {
         setActiveItem(item);
     };
@@ -12,13 +34,13 @@ const Header = () => {
     return (
         <nav className="bg-white border-gray-200 mt-10">
             <div className="flex flex-wrap items-center justify-between mx-auto">
-                <a href="#" className="flex items-center space-x-3 rtl:space-x-reverse pl-9">
+                <Link href="/" className="flex items-center space-x-3 rtl:space-x-reverse pl-9">
                     <img
                         src="/logo.svg"
                         className=""
-                        alt="Flowbite Logo"
+                        alt="Logo"
                     />                    
-                </a>
+                </Link>
                 <button
                     data-collapse-toggle="navbar-default"
                     type="button"
@@ -45,19 +67,19 @@ const Header = () => {
                 </button>
                 <div className="hidden w-full md:block md:w-auto gogreentheme py-[23px] px-[50px] rounded-tl-[52px] rounded-bl-[52px] relative" id="navbar-default">
                     <ul className="font-medium flex flex-col p-4 md:p-0 mt-4 border border-gray-100 rounded-lg md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0 md:bg-whit">
-                        {['Home', 'About', 'Services', 'Pricing', 'Contact'].map((item) => (
-                            <li key={item} className="relative">
-                                <a
-                                    href="#"
-                                    onClick={() => handleClick(item)}
+                        {urls.map((item, index) => (
+                            <li key={index} className="relative">
+                                <Link
+                                    href={item.url}
+                                    onClick={() => handleClick(item.name)}
                                     className={`block py-2 px-3 transition-all duration-400 ${
-                                        activeItem === item
+                                        activeItem === item.name
                                             ? `${styles.urlTextActive} bg-white rounded-[25px]`
                                             : `${styles.urlText} hover:text-black`
                                     }`}
                                 >
-                                    {item}
-                                </a>
+                                    {item.name}
+                                </Link>
                             </li>
                         ))}
                     </ul>
@@ -68,8 +90,3 @@ const Header = () => {
 }
 
 export default Header
-
-
-
-
-

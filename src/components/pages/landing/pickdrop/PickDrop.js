@@ -1,14 +1,18 @@
 import React from 'react'
 import styles from '../../../main.module.css'
 import BenifitsofPick from './BenifitsofPick'
+import Animation from '../animation/Animation'
 const PickDrop = () => {
     return (
         <div>
-            <div
-                className="relative w-full h-screen bg-cover bg-center"
-                style={{ backgroundImage: 'url("/pickAndDrop_banner.png")' }}
-            >
-            </div>
+            <Animation  animationType="zoomIn" duration={3}>
+                <div
+                    className="relative w-full h-screen bg-cover bg-center"
+                    style={{ backgroundImage: 'url("/pickAndDrop_banner.png")' }}
+                >
+                    <img src="/pickAndDrop_banner.png" alt="Pick and Drop" className="w-full h-full object-cover" />
+                </div>
+            </Animation>
             <div className="flex flex-col md:flex-row h-screen">
                 {/* Left Section (Blurred image with heading) */}
                 <div className="relative md:w-5/12 w-full h-64 md:h-full z-[1]">
@@ -54,7 +58,7 @@ const PickDrop = () => {
             <BenifitsofPick />
 
 
-        </div>
+        </div >
     )
 }
 

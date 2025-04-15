@@ -1,11 +1,12 @@
 import React from 'react'
 import styles from '../../../main.module.css'
 import Image from 'next/image'
+import Animation from '../animation/Animation'
 const SmartApp = () => {
-    
+
     return (
         <div className={`${styles.smartAppBg}`}>
-            <div className={`max-w-[1500px] mx-auto py-[100px]`}>              
+            <div className={`max-w-[1500px] mx-auto py-[100px]`}>
                 <div className="flex flex-col-reverse lg:flex-row items-center justify-between gap-10">
                     {/* Left Text Content */}
                     <div className="w-full lg:w-7/12 text-center lg:text-left">
@@ -36,19 +37,21 @@ const SmartApp = () => {
                     </div>
                     {/* Right Phone Mockup */}
                     <div className="w-full lg:w-5/12 flex justify-end">
-                        <Image
-                            src="/smartApp_image.png"
-                            alt="App Preview"
-                            className="pl-10 w-full"
-                            width={1000}
-                            height={1000}
-                        />
+                        <Animation animationType="slideIn" duration={2} >
+                            <Image
+                                src="/smartApp_image.png"
+                                alt="App Preview"
+                                className="pl-10 w-full"
+                                width={1000}
+                                height={1000}
+                            />
+                        </Animation>
                     </div>
                 </div>
 
 
             </div>
-        </div>
+        </div >
     )
 }
 
