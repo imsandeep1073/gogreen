@@ -6,7 +6,7 @@ const BenifitsofPick = () => {
             {/* Pickup section under scoll view */}
             <div className="flex flex-col md:flex-row min-h-screen">
                 {/* Left Section (Sticky) */}
-                <div className="md:w-5/12 w-full md:sticky md:top-0 md:h-screen z-[1]">
+                <div className="md:w-5/12 w-full sticky top-0 md:h-screen z-[1]">
                     <img
                         src="/pickAndDrop_leftIMg.png"
                         alt="Pick and Drop"

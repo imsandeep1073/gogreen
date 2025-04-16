@@ -25,20 +25,20 @@ const VendorApp = () => {
 
     return (
         <div>
-            <div className={`max-w-[1500px] mx-auto py-[150px]`}>
-                <div className="flex flex-col-reverse lg:flex-row  justify-between gap-10">
+            <div className={`max-w-[1500px] mx-auto md:py-[100px] py-[50px] md:px-[50px] px-4 relative`}>
+                <div className="flex flex-col lg:flex-row  justify-between gap-10">
                     {/* Left Text Content */}
                     <div className="w-full lg:w-7/12 text-center lg:text-left">
-                        <h1 className="text-4xl md:text-5xl font-bold leading-tight">
-                            <span className="text-[#098B46] outline-text lg:text-[118px] text-[75px] leading-[90px] font-extrabold">Go Green</span>
+                        <h1 className="sm:text-4xl md:text-5xl text-lg font-bold leading-tight">
+                            <span className="text-[#098B46] outline-text xl:text-[118px] lg:text-[75px] md:text-[85px] sm:text-[55px] text-[45px] md:leading-[90px] sm:font-extrabold font-semibold">Go Green</span>
                             <br />
-                            <span className={`${styles.customerAppBgText} text-[#fff] bg-[#098B46] text-[75px] font-normal lg:text-[60px] pr-5 leading-[80px] w-[75%] py-2 relative inline-block mt-2`}>
-                            Vendor App</span>
+                            <span className={`${styles.customerAppBgText} text-[#fff] bg-[#098B46] md:text-[75px] text-[30px] font-normal lg:text-[60px] pr-5 leading-[80px] xl:w-[75%] lg:w-[80%]  md:py-2 relative inline-block mt-2`}>
+                                Vendor App</span>
                         </h1>
-                        <p className="mt-20 mb-10 text-[#363636] text-base font-medium lg:text-[25px]">
+                        <p className="xl:mt-20 lg:mt-10 md:mt-20 mt-10 xl:mb-10 mb-5 text-[#363636] text-base font-medium md:text-[30px] lg:text-[25px]">
                             Your daily essentials, delivered your way.
                         </p>
-                        <p className=" text-[#363636] text-base lg:text-[20px]">
+                        <p className=" text-[#363636] text-sm lg:text-[18px] md:text-[20px]">
                             The Go Green Customer App is your all-in-one solution for fast, convenient, and reliable deliveries. Whether you need groceries, want to schedule a delivery, or send something across town — it’s all just a few taps away.
                         </p>
 
@@ -50,7 +50,7 @@ const VendorApp = () => {
                         <Image
                             src="/customerApp.png"
                             alt="App Preview"
-                            className="pl-10 w-full"
+                            className="lg:pl-10 w-full"
                             width={1000}
                             height={1000}
                         />

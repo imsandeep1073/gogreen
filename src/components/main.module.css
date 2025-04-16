@@ -14,14 +14,15 @@
 
 .headingText {
     font-family: 'Open Sans', sans-serif;
-    font: normal normal 800 75px/102px Open Sans, sans-serif;
+    /* font: normal normal 800 75px/102px Open Sans, sans-serif; */
     letter-spacing: 0px;
     color: #098B46;
+
     opacity: 1;
 }
 
 .subHeadingText {
-    font: normal normal normal 25px/34px Open Sans, sans-serif;
+    /* font: normal normal normal 25px/34px Open Sans, sans-serif; */
     letter-spacing: 0px;
     color: #363636;
 }
@@ -39,9 +40,23 @@
     position: absolute;
     left: -324px;
     top: 0;
-    z-index: -1;    
+    z-index: -1;
 }
-.customerAppBgText { 
+
+.customerAppBgText {
     border-top-right-radius: 55px;
     border-bottom-right-radius: 55px;
+}
+
+@media screen and (max-width: 1024px) {
+    .customerAppBgText::before {
+        content: '';
+        width: 140%;
+        height: -webkit-fill-available;
+        background: #098B46;
+        position: absolute;
+        left: -220px;
+        top: 0;
+        z-index: -1;
+    }
 }

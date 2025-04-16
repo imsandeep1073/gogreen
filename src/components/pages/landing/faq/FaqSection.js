@@ -38,7 +38,7 @@ const FaqSection = () => {
   };
 
   return (
-    <div className="max-w-[1500px] mx-auto bg-white py-12 px-4 sm:px-6 lg:px-8">
+    <div className="max-w-[1500px] mx-auto bg-white py-12 px-10">
       <div className="">
         {/* Header Section */}
         <div className="mb-12">

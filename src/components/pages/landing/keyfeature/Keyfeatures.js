@@ -6,11 +6,11 @@ const Keyfeatures = ({ keyData }) => {
     return (
         <div>
 
-            <h6 className="text-[#098B46] text-base font-medium lg:text-[35px] mt-10">
+            <h6 className="text-[#098B46]  font-medium text-[35px] mt-10">
                 Key Features:
             </h6>
-            <div className="flex flex-col lg:flex-row gap-5 mt-4">
-                <div className="w-full lg:w-12/12 border-2 border-[#098B46] rounded-lg p-3">
+            <div className="flex flex-col md:flex-row gap-5 mt-4">
+                <div className="w-full xl:w-12/12 lg:w-6/12 sm:w-6/12 border-2 border-[#098B46] rounded-lg p-3">
                     <div className="flex gap-4">
                         <div className="">
                             <div className="">
@@ -25,7 +25,7 @@ const Keyfeatures = ({ keyData }) => {
                         </div>
                     </div>
                 </div>
-                <div className="w-full lg:w-8/12 border-2 border-[#098B46] rounded-lg p-3">
+                <div className="w-full xl:w-8/12 lg:w-6/12 sm:w-6/12 border-2 border-[#098B46] rounded-lg p-3">
                     <div className="flex gap-4">
                         <div className="">
                             <div className="">
@@ -37,7 +37,7 @@ const Keyfeatures = ({ keyData }) => {
                         </div>
                     </div>
                 </div>
-                <div className="w-full lg:w-8/12 border-2 border-[#098B46] rounded-lg p-3">
+                <div className="w-full xl:w-8/12 lg:w-6/12 sm:w-6/12 border-2 border-[#098B46] rounded-lg p-3">
                     <div className="flex gap-4">
                         <div className="">
                             <div className="">
@@ -49,7 +49,7 @@ const Keyfeatures = ({ keyData }) => {
                         </div>
                     </div>
                 </div>
-                <div className="w-full lg:w-8/12 border-2 border-[#098B46] rounded-lg p-3">
+                <div className="w-full xl:w-8/12 lg:w-6/12 sm:w-6/12 border-2 border-[#098B46] rounded-lg p-3">
                     <div className="flex gap-4">
                         <div className="">
                             <div className="pb-4">
@@ -61,9 +61,10 @@ const Keyfeatures = ({ keyData }) => {
                         </div>
                     </div>
                 </div>
-
-
-
+            </div>
+            <div className='flex items-center mt-10 gap-3'>
+               <Image src="/googlePlayStoeImage.svg" alt="Check" width={150} height={100} />
+               <Image src="/appStoreImage.svg" alt="Check" width={150} height={100} />
             </div>
 
         </div>
