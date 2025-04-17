@@ -14,7 +14,7 @@ const Header = () => {
     };
 
     return (
-        <nav className="bg-white border-gray-200 mt-8">
+        <nav className="bg-white border-gray-200 pt-8">
             <div className="flex flex-wrap items-center justify-between mx-auto">
                 <Link href="/" className="flex items-center space-x-3 rtl:space-x-reverse sm:px-[50px] px-4">
                     <img src="/logo.svg" alt="Logo" />
