@@ -8,7 +8,7 @@ const UserSay = () => {
 
             {/* <div className="bg-[#098B46] py-[100px] px-4 relative"> */}
             {/* <img src="/bg_dots.svg" alt="userSay_bg" className="absolute bottom-0 left-0 w-full h-full object-cover opacity-10" /> */}
-            <div className="max-w-[1500px] mx-auto text-center">
+            <div className="max-w-[1920px] mx-auto text-center md:px-[80px] px-4">
                 {/* Section Heading */}
                 <h2 className="text-white text-4xl md:text-5xl font-bold mb-16">
                     <span className="text-[#fff] outline-text-white lg:text-[80px] text-[75px] leading-[90px] font-extrabold">What Our </span>

@@ -44,7 +44,7 @@ const Carouselbox = () => {
     ]
 
     return (
-        <div className='max-w-[1500px] mx-auto'>
+        <div className='max-w-[1920px] mx-auto md:px-[80px] px-4'>
             <Carousel
                 opts={{
                     align: "start",

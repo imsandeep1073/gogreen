@@ -25,7 +25,7 @@ const VendorApp = () => {
 
     return (
         <div>
-            <div className={`max-w-[1500px] mx-auto md:py-[100px] py-[50px] md:px-[50px] px-4 relative`}>
+            <div className={`max-w-[1920px] mx-auto md:py-[100px] py-[50px] md:px-[80px] px-4 relative`}>
                 <div className="flex flex-col lg:flex-row  justify-between gap-10">
                     {/* Left Text Content */}
                     <div className="w-full lg:w-7/12 text-center lg:text-left">

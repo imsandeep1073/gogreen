@@ -21,7 +21,7 @@ const Banner = () => {
         }
     ]
     return (
-        <div className={`text-center sm:mt-[150px] mt-[80px] relative`}>
+        <div className={`text-center sm:mt-[150px] mt-[80px] relative md:px-[80px] px-4`}>
             <h1 className={`${styles.headingText} xl:text-[75px] xl:leading-[102px] md:text-[55px] md:leading-[75px] text-[40px] leading-[50px] font-extrabold`}>Fast. Reliable. Right at your fingertips.</h1>
             <p className={`max-w-[981px] md:text-[34px] text-[18px] md:px-20 p-4 xl:px-0 mx-auto ${styles.subHeadingText} mt-3`}>
                 Say hello to the easiest way to manage your daily needs. The <span className={`font-bold`}>Go Green app</span> brings fast delivery, scheduled orders, pick & drop services, and a complete product <br /> catalog — All in one app.

@@ -29,7 +29,7 @@ const PartnerApp = () => {
         <div className='bg-[#F5F5F5] relative z-0'>
             <Image src="/right_lefe_img.svg" className={`absolute right-0 top-1/2 -translate-y-1/2  blur-[5px]`} alt="banner" width={200} height={200} />
             <Image src="/left_lefe_img.svg" className={`absolute left-0 top-1/4 -translate-y-1/2  blur-[5px]`} alt="banner" width={100} height={100} />
-            <div className={`max-w-[1500px] mx-auto md:py-[100px] py-[50px] md:px-[50px] px-4 relative`}>
+            <div className={`max-w-[1920px] mx-auto md:py-[100px] py-[50px] relative md:px-[80px] px-4`}>
                 <div className="flex flex-col-reverse lg:flex-row  justify-between gap-10">
                     {/* Left Text Content */}
                     <div className="w-full lg:w-5/12 flex justify-start ">

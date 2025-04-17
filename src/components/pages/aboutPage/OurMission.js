@@ -20,11 +20,11 @@ const OurMission = () => {
                             </div>
                             <div className='lg:w-1/2'>
                                 <div className=''>
-                                    <h2 className="text-3xl md:text-8xl font-bold text-green-700 mb-2 text-right">
-                                        Our <span className="bg-green-700 text-white px-4 pr-40">Mission</span>
+                                    <h2 className="text-3xl md:text-8xl font-bold text-[#098B46] mb-2 text-center">
+                                        Our <span className="bg-[#098B46] text-white px-4 pr-40">Mission</span>
                                     </h2>
                                     <div className='w-[70%] mx-auto mt-10'>
-                                        <p className="text-gray-800 text-xl">
+                                        <p className="text-[25px]">
                                             At GoGreen, our mission is to deliver more than just products — we
                                             deliver convenience, connection, and opportunity. We provide fast,
                                             reliable delivery while supporting local businesses and creating
@@ -39,12 +39,12 @@ const OurMission = () => {
                         {/* Vision Section */}
                         <div className="flex items-center">
                             <div className='lg:w-1/2 '>
-                                <div className=''>
-                                    <h2 className="text-3xl md:text-8xl font-bold text-green-700 mb-2 text-right">
-                                        Our <span className="bg-green-700 text-white px-4 pr-40">Vision</span>
+                                <div className='pl-[70px]'>
+                                    <h2 className="text-3xl md:text-8xl font-bold text-[#098B46] mb-2 flex items-center gap-2">
+                                        Our <span className="bg-[#098B46] text-white px-4 pr-40 w-full">Vision</span>
                                     </h2>
-                                    <div className='w-[70%] mx-auto mt-10'>
-                                        <p className="text-gray-800 text-xl">
+                                    <div className='mt-10'>
+                                        <p className="w-[75%] mr-auto text-[25px] leading-[35px]">
                                             Our vision is to become the go-to platform for sustainable,
                                             all-in-one delivery. We aim to build a world where every order
                                             supports local businesses, strengthens community connections, and

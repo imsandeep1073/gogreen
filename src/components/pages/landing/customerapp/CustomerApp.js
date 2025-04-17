@@ -24,7 +24,7 @@ const CustomerApp = () => {
     return (
         <div className={`relative`}>
             <Image src="/right_lefe_img.svg" className={`absolute right-0 top-1/2 -translate-y-1/2  blur-[5px]`} alt="banner" width={200} height={200} />
-            <div className={`max-w-[1500px] mx-auto md:py-[100px] py-[50px] md:px-[50px] px-4 relative`}>
+            <div className={`max-w-[1920px] mx-auto md:py-[100px] py-[50px] relative md:px-[80px] px-4`}>
                 <div className="flex flex-col lg:flex-row  justify-between gap-10">
                     {/* Left Text Content */}
                     <div className="w-full lg:w-7/12 text-center lg:text-left">

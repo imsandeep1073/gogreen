@@ -7,7 +7,7 @@ const WhyChoose = () => {
     return (
         <div className='bg-[#F5F5F5]'>
             <div className="py-12 md:py-20 lg:py-[100px]">
-                <div className="max-w-[1500px] mx-auto grid grid-cols-1 md:grid-cols-2 gap-8 items-center px-10">
+                <div className="max-w-[1920px] mx-auto grid grid-cols-1 md:grid-cols-2 gap-8 items-center md:px-[80px] px-4">
                     {/* Left Side - Heading */}
                     <Animation animationType="scaleIn">
                         <div>

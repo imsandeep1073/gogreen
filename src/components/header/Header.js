@@ -46,7 +46,7 @@ const Header = () => {
                 </button>
 
                 {/* Desktop Menu */}
-                <div className="hidden lg:block gogreentheme py-[23px] px-[50px] rounded-tl-[52px] rounded-bl-[52px] relative">
+                <div className="hidden lg:block gogreentheme py-[23px] pl-[80px] pr-[150px] rounded-tl-[52px] rounded-bl-[52px] relative">
                     <ul className="font-medium flex space-x-8">
                         {HeaderLinks.map((item, index) => (
                             <li key={index}>

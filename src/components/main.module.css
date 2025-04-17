@@ -43,15 +43,30 @@
     z-index: -1;
 }
 
+.about_header {    
+    position: relative;
+    padding-bottom: 10px;
+   
+}
 .about_header::before {
     content: '';
-    width: 120%;
-    height: -webkit-fill-available;
-    background: #098B46;
     position: absolute;
-    left: -324px;
-    top: 0;
-    z-index: -1;
+    width: 76%;
+    height: 20%;
+    background: #ffffff00;
+    border-bottom: 2px solid #008a4a;
+    left: -94px;
+    bottom: -4px;
+}
+.about_header::after {
+    content: '';
+    position: absolute;
+    width: 82%;
+    height: 20%;
+    background: #ffffff00;
+    border-bottom: 2px solid #008a4a;
+    left: -94px;
+    bottom: -12px;
 }
 
 .customerAppBgText {

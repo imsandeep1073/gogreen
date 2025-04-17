@@ -3,9 +3,9 @@ import styles from '../../main.module.css'
 
 const OurCoreValue = () => {
     return (
-        <div className='border-b-2 border-black mb-2'>
-            <div className={`max-w-[1500px] mx-auto md:py-[100px] py-[50px] md:px-[50px] px-4  mb-2`}>
-                <h1 className={`${styles.about_header} sm:text-4xl md:text-5xl text-lg font-bold leading-tight`}>
+        <div className='border-b-[1px] border-black mb-2'>
+            <div className={`max-w-[1920px] mx-auto md:py-[100px] py-[50px] md:px-[50px] px-4  mb-2`}>
+                <h1 className={` sm:text-4xl md:text-5xl text-lg font-bold leading-tight`}>
                     <span className="text-[#098B46] outline-text xl:text-[118px] md:text-[75px] sm:text-[55px] text-[35px] md:leading-[90px] font-extrabold">Our Core</span>
                     <br />
                     <span className="text-[#098B46] md:text-[75px] text-[30px] font-extrabold xl:text-[85px] sm:leading-[80px]">Values</span>
