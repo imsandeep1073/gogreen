@@ -42,6 +42,16 @@
     top: 0;
     z-index: -1;
 }
+.customerAppBgText_right::before {
+    content: '';
+    width: 120%;
+    height: -webkit-fill-available;
+    background: #098B46;
+    position: absolute;
+    right: -324px;
+    top: 0;
+    z-index: -1;
+}
 
 .about_header {    
     position: relative;
@@ -73,6 +83,10 @@
     border-top-right-radius: 55px;
     border-bottom-right-radius: 55px;
 }
+.customerAppBgText_right {
+    border-top-left-radius: 55px;
+    border-bottom-left-radius: 55px;
+}
 
 @media screen and (max-width: 1024px) {
     .customerAppBgText::before {
@@ -82,6 +96,16 @@
         background: #098B46;
         position: absolute;
         left: -220px;
+        top: 0;
+        z-index: -1;
+    }
+    .customerAppBgText_right::before {
+        content: '';
+        width: 140%;
+        height: -webkit-fill-available;
+        background: #098B46;
+        position: absolute;
+        right: -220px;
         top: 0;
         z-index: -1;
     }

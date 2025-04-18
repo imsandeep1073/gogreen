@@ -19,9 +19,9 @@ const OurMission = () => {
                                 />
                             </div>
                             <div className='lg:w-1/2'>
-                                <div className=''>
-                                    <h2 className="text-3xl md:text-8xl font-bold text-[#098B46] mb-2 text-center">
-                                        Our <span className="bg-[#098B46] text-white px-4 pr-40">Mission</span>
+                                <div className='pl-14'>
+                                    <h2 className="text-3xl md:text-8xl font-bold text-[#098B46] mb-2 flex items-center gap-2">
+                                        Our <span className="bg-[#098B46] text-white px-4 pr-40 w-full">Mission</span>
                                     </h2>
                                     <div className='w-[70%] mx-auto mt-10'>
                                         <p className="text-[25px]">
